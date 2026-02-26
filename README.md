@@ -104,23 +104,26 @@ Link do Bot: https://giani-pertuzatti-mll1b.chat.blip.ai/?appKey=aG1sYXRsYXN4cm9
 
 ---
 
-Para importar os fluxos, será necessário criar um bot para cada pasta. O nome do bot no router deverá ser o nome da pasta.
+* Para importar os fluxos, será necessário criar um bot para cada pasta. O nome do bot no router deverá ser o nome da pasta.
 
 <img width="395" height="667" alt="image" src="https://github.com/user-attachments/assets/a02d22cf-27e6-4005-80c5-90ce1054e032" />
 
-No Router, um resource é adicionado
+* No Router, um resource é adicionado
+
 inputProcessing, do tipo texto, com o valor de inputProcessing.js que está na raiz.
 
-No bot "Principal" as seguintes variáveis foram setadas (conforme json da collection).
+* No bot "Principal" as seguintes variáveis foram setadas (conforme json da collection).
 
 <img width="414" height="610" alt="image" src="https://github.com/user-attachments/assets/394714cd-5617-4ac9-9d80-9d4b501df3e5" />
 
-No bot "ATH" as seguintes variáveis foram setadas.
+* No bot "ATH" as seguintes variáveis foram setadas.
 
 <img width="386" height="500" alt="image" src="https://github.com/user-attachments/assets/22a4e1d1-b26d-4831-a5e6-844f5cd38fc5" />
 
-No bot "IA" as seguintes variáveis foram setadas.
+* No bot "IA" as seguintes variáveis foram setadas.
+
 urlOpenAI: https://api.openai.com/v1/chat/completions
+
 openAIToken: {{OPENAI_KEY}}
 
 <img width="388" height="559" alt="image" src="https://github.com/user-attachments/assets/15536209-8f28-49b2-9170-f594b8b34ac5" />
