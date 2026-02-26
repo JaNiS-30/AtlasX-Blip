@@ -1,10 +1,10 @@
-#AtlasX-Blip — Arquitetura Modular#
+# AtlasX-Blip — Arquitetura Modular #
 
 Este projeto implementa um fluxo conversacional para a AtlasX Logística Integrada utilizando uma arquitetura modular, onde cada funcionalidade é isolada em módulos com responsabilidades bem definidas.
 
 O objetivo é facilitar manutenção, evolução, testes e reuso de componentes.
 
-#Visão Geral da Arquitetura#
+# Visão Geral da Arquitetura #
 
 A aplicação é organizada por módulos funcionais, cada um responsável por uma parte específica do fluxo do usuário.
 
@@ -17,7 +17,7 @@ Separação de responsabilidades
 Facilidade de extensão (novos fluxos/módulos podem ser adicionados sem quebrar os existentes)
 
 
-#Módulos e Responsabilidades#
+# Módulos e Responsabilidades #
 
 
 * Principal
