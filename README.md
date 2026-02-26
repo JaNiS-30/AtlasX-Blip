@@ -11,6 +11,7 @@ A aplicação é organizada por módulos funcionais, cada um responsável por um
 O módulo Principal atua como orquestrador, conectando os demais módulos e controlando a navegação entre eles.
 
 Princípios adotados:
+
 Separação de responsabilidades (Single Responsibility)
 
 Baixo acoplamento entre módulos
@@ -22,53 +23,81 @@ Facilidade de extensão (novos fluxos/módulos podem ser adicionados sem quebrar
 
 🧩 Módulos e Responsabilidades
 
+
 🏠 Principal
+
 Responsabilidade:
 
 Orquestrar a navegação entre módulos
+
 Definir o fluxo principal da aplicação
+
 Centralizar decisões de roteamento
+
 Atuar como “hub” da aplicação
 
 👋 Boas-vindas
+
+
 Responsabilidade:
 
 Mensagem inicial para o usuário
+
 Apresentação do serviço
 
+
 🧾 CPF-CNPJ
+
 Responsabilidade:
 
 Fluxo de consulta de Pessoa Física (CPF)
+
 Fluxo de consulta de Pessoa Jurídica (CNPJ)
 
-🤖 IA
+
+ºIA
+
 Responsabilidade:
 
 Integrações com APIs de IA
+
 Geração dinâmica de questionários/perguntas
-Coleta estruturada de dados (nome, telefone, endereço, etc.)
+
+Coleta estruturada de dados (nome, telefone, endereço e email)
+
 Transformação de respostas da IA em estruturas utilizáveis pela aplicação
+
 Isolamento total da lógica de IA para facilitar troca de provedor no futuro
 
-🔄 Cascata
+
+*Cascata
+
 Responsabilidade:
 
 Centralizar inatividade
+
 Estruturar respostas padrão para cada tipo de menu
+
 Encaminhar o usuário conforme respostas anteriores
 
-🧭 ATH
+
+-ATH
+
 Responsabilidade:
 
 Atendimento humano
+
 Direcionamento para erros persistentes
 
+
 🎯 Finalizacao
+
 Responsabilidade:
 
 Encerrar o fluxo
+
 Exibir mensagens finais
+
 Confirmar conclusão do processo
 
 ---
