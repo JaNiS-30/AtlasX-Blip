@@ -11,7 +11,6 @@ A aplicação é organizada por módulos funcionais, cada um responsável por um
 O módulo Principal atua como orquestrador, conectando os demais módulos e controlando a navegação entre eles.
 
 Princípios adotados:
-
 Separação de responsabilidades (Single Responsibility)
 
 Baixo acoplamento entre módulos
