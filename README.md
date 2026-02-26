@@ -55,7 +55,7 @@ Fluxo de consulta de Pessoa Física (CPF)
 Fluxo de consulta de Pessoa Jurídica (CNPJ)
 
 
-ºIA
+º IA
 
 Responsabilidade:
 
@@ -70,7 +70,7 @@ Transformação de respostas da IA em estruturas utilizáveis pela aplicação
 Isolamento total da lógica de IA para facilitar troca de provedor no futuro
 
 
-*Cascata
+* Cascata
 
 Responsabilidade:
 
@@ -81,7 +81,7 @@ Estruturar respostas padrão para cada tipo de menu
 Encaminhar o usuário conforme respostas anteriores
 
 
--ATH
+- ATH
 
 Responsabilidade:
 
