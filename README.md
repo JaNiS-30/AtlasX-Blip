@@ -1,30 +1,26 @@
-📦 AtlasX-Blip — Arquitetura Modular
+#AtlasX-Blip — Arquitetura Modular#
 
 Este projeto implementa um fluxo conversacional para a AtlasX Logística Integrada utilizando uma arquitetura modular, onde cada funcionalidade é isolada em módulos com responsabilidades bem definidas.
 
 O objetivo é facilitar manutenção, evolução, testes e reuso de componentes.
 
-🧠 Visão Geral da Arquitetura
+#Visão Geral da Arquitetura#
 
-A aplicação é organizada por módulos funcionais, cada um responsável por uma parte específica do fluxo do usuário (boas-vindas, coleta de dados, IA, finalização etc.).
+A aplicação é organizada por módulos funcionais, cada um responsável por uma parte específica do fluxo do usuário.
 
 O módulo Principal atua como orquestrador, conectando os demais módulos e controlando a navegação entre eles.
 
 Princípios adotados:
 
-Separação de responsabilidades (Single Responsibility)
-
-Baixo acoplamento entre módulos
-
-Alta coesão dentro de cada módulo
+Separação de responsabilidades
 
 Facilidade de extensão (novos fluxos/módulos podem ser adicionados sem quebrar os existentes)
 
 
-🧩 Módulos e Responsabilidades
+#Módulos e Responsabilidades#
 
 
-🏠 Principal
+* Principal
 
 Responsabilidade:
 
@@ -36,7 +32,7 @@ Centralizar decisões de roteamento
 
 Atuar como “hub” da aplicação
 
-👋 Boas-vindas
+* Boas-vindas
 
 
 Responsabilidade:
@@ -46,7 +42,7 @@ Mensagem inicial para o usuário
 Apresentação do serviço
 
 
-🧾 CPF-CNPJ
+* CPF-CNPJ
 
 Responsabilidade:
 
@@ -55,7 +51,7 @@ Fluxo de consulta de Pessoa Física (CPF)
 Fluxo de consulta de Pessoa Jurídica (CNPJ)
 
 
-º IA
+* IA
 
 Responsabilidade:
 
@@ -81,7 +77,7 @@ Estruturar respostas padrão para cada tipo de menu
 Encaminhar o usuário conforme respostas anteriores
 
 
-- ATH
+* ATH
 
 Responsabilidade:
 
@@ -90,7 +86,7 @@ Atendimento humano
 Direcionamento para erros persistentes
 
 
-🎯 Finalizacao
+* Finalizacao
 
 Responsabilidade:
 
